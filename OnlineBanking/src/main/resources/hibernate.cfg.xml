@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hbm2ddl.auto">update</property>  
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">lYaMBSzbw9</property>
+        <property name="hibernate.connection.url">jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12181865?useSSL=false</property>
+        <property name="hibernate.connection.username">sql12181865</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.onlineBanking.entity.UserDetails" />
+    </session-factory>
+</hibernate-configuration>
